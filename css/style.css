@@ -9,7 +9,9 @@ Secondary Color (Redish Brown) #cc6540;
 Secondary Color (Pale Yellow): #E8D591;
 Secondary Color (Peach Orange): #ED9871;
 */
-
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: lightgrey;
   font-family: 'Asap', sans-serif;
@@ -89,5 +91,10 @@ a:focus {
   color: #F7F7F7;
 }
 #my-link {/* id selector */
-  color: Blue;  
+  color: Blue;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
 }
