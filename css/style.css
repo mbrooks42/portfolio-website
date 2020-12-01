@@ -88,3 +88,6 @@ a:focus {
   background-color: #ED9871;
   color: #F7F7F7;
 }
+#my-link {/* id selector */
+  color: Blue;  
+}
