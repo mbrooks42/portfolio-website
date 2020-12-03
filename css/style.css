@@ -172,3 +172,18 @@ nav > ul > li > a:visited{
 nav > ul > li > a:active{
 color: #F7F7F7;
 }
+#hero {
+  background-color: #ffe4c4;
+}
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+header {
+-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+position: relative
+}
