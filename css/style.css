@@ -119,6 +119,9 @@ a:focus {
 }
 
 /* Layout styling */
+* {
+  box-sizing: border-box;
+}
 .container {
   padding: 0 15px;
 }
@@ -187,3 +190,7 @@ header {
 box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 position: relative
 }
+#contact {
+  text-align: center;
+/* Centers text */}
+#intro {}
