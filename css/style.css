@@ -147,7 +147,7 @@ transition-duration: 0.2s;
   display: block;
 }
 .logo {
-  max-width: 250px;
+  max-width: 150px;
   text-align: center;
 }
 header {
@@ -217,6 +217,10 @@ color: #F7F7F7;
     .col-md-6 {
   width: 50%;
 }
+.logo {
+  min-width: 641px;
+  text-align: center;
+}
 #about-page h3 { margin-top: 0;}
 
   }
@@ -236,10 +240,18 @@ width: 41.66%;
   margin-right: auto;
 }
 }
+.logo {
+  min-width: 641px;
+  text-align: center;
+}
   /* ==============================
   X-large devices (1440px or larger)
   ================================= */
   @media only screen and (min-width: 1440px) {
+  }
+  .logo {
+    min-width: 641px;
+    text-align: center;
   }
   /* ==============================
   Extra-large devices (1920px or larger)
@@ -267,33 +279,7 @@ width: 41.66%;
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
-/* Top and Bottom borders go out */
-div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
-{
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #FFF;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
-}
-
-div.topBotomBordersOut a:before
-{
-    top: 0px;
-    transform: translateY(10px);
-}
-
-div.topBotomBordersOut a:after
-{
-    bottom: 0px;
-    transform: translateY(-10px);
-}
-
-div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
-{
-    opacity: 1;
-    transform: translateY(0px);
+.logo {
+  min-width: 641px;
+  text-align: center;
 }
