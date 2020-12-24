@@ -54,19 +54,21 @@ img {
 }
 
 a {
-  color: #ED9871;
+  color: #091C36;
   text-decoration: none;
   /* No underlining */
 }
 
 a:hover {
-  color: #cc6540;
+  color: #091C36;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
 
-
+a:visited {
+color: #2A7DF5;
+}
 a:active {
   /* selected link */
   color: #F7F7F7;
@@ -74,7 +76,7 @@ a:active {
 
 a:hover,
 a:focus {
-  color: #cc6540;
+  color: #091C36;
   text-decoration: underline;
 }
 
@@ -105,9 +107,8 @@ transition-duration: 0.2s;
 }
 
 .button.contact:hover {
-  background-color: #F7F7F7;
-  color: #091C36;
-  opacity: 0.8;
+  background-color: #091C36;
+  color: #F7F7F7;
 }
 
 #my-link {
@@ -219,7 +220,12 @@ color: #F7F7F7;
 #contact {
   text-align: center;
 /* Centers text */}
-
+#social{
+  svg {
+  max-width: 50px;
+  height: 50px;
+}
+}
   /* ==============================
   Medium devices (640px and larger)
   ================================= */
