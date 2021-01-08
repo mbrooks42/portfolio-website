@@ -142,7 +142,6 @@ transition-duration: 0.2s;
 }
 #work .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a;
 }
 
 #hero {
@@ -225,6 +224,7 @@ footer{
 
 footer h2 {
   color: #F7F7F7;
+  padding-top: 1em;
 }
 
 #hero {
@@ -250,7 +250,7 @@ footer h2 {
 }
 
 .footsvg {
-  color: black;
+  color: #f7f7f7;
   font-size: 50px;
   margin-left: 5px;
   margin-right:5px;
@@ -343,4 +343,10 @@ width: 41.66%;
 }
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+/* this is for the pic of me */
+.me-pic {
+  height: 600px;
+  width: 600px;
 }
