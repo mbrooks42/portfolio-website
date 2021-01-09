@@ -52,6 +52,7 @@ h4 {
   font-weight: 400;
 }
 
+
 img {
   width: 100%;
 }
@@ -140,6 +141,7 @@ transition-duration: 0.2s;
   clear: both;
   display: table;
 }
+
 #work .row {
   padding-bottom: 25px;
 }
@@ -158,10 +160,6 @@ transition-duration: 0.2s;
 header {
   background-color: #091C36;
   padding: 10px 0 4px;
-  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  position: relative
 }
 
 nav > ul {
@@ -172,8 +170,7 @@ nav > ul {
 
 nav > ul > li > a {
   display: inline-block;
-
-  padding: 0 15px;
+  padding: 20px 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #F7F7F7;
@@ -217,6 +214,10 @@ color: #F7F7F7;
   padding: 0 0 10px;
 }
 
+.sections{
+  margin-bottom: ;
+}
+
 footer{
   background-color: #091C36;
   color:#F7F7F7;
@@ -250,7 +251,7 @@ footer h2 {
 }
 
 .footsvg {
-  color: #f7f7f7;
+  color: #F7F7F7;
   font-size: 50px;
   margin-left: 5px;
   margin-right:5px;
@@ -345,8 +346,18 @@ width: 41.66%;
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-/* this is for the pic of me */
+
+/* class for pic of me */
+
 .me-pic {
-  height: 600px;
-  width: 600px;
+
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #091C36;
+  border-width: 10px;
+
+}
+
+.about-me{
+  margin-left: 3em;
 }
