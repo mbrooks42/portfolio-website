@@ -7,6 +7,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
    <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+   <link rel="manifest" href="img/favicon/site.webmanifest">
+   <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
    <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <meta name="author" content="Matthew Brooks">
@@ -18,7 +28,7 @@
   <header>
     <div class="container">
       <div class="navtoggle" id="myNavtoggle">
-      <a href="/index.html"><img class="logo" src="https://i.imgur.com/wNb4VII.png" alt="Matthew Brooks Logo"></a>
+      <a href="index.html"><img class="logo" src="https://i.imgur.com/wNb4VII.png" alt="Matthew Brooks Logo"></a>
       <nav>
         <ul class="navigation">
           <li><a href="index.html">Work</a></li>
@@ -44,13 +54,12 @@
           <div class="row">
             <div class="col-md-6 col-lg-5">
               <picture>
-                <source srcset="img/me/profile-600w.jpg" media="(max-width:767px)">
-                <img src="img/me/profile-1200w.jpg" class="me-pic img-fluid" alt="My Photo">
+                <img src="img/me/profile-1200w.jpg" class="me-pic img-fluid" data-aos="fade-down" data-aos-duration="2000" alt="My Photo">
               </picture>
             </div>
             <div class="col-md-6 col-lg-5 about-me">
               <div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="2000">
                   <h2>My Story</h2>
                   <p>My name is Matthew Brooks I'm a UI Designer living in Laguna Beach, California. I have a background in graphic design and I love to draw. I strongly believe in offering practical, effective solutions that best adhere to the client’s
                     expressed needs. My focus is on translating the client's vision into an aesthetic reality in a creative, appealing way.
@@ -63,9 +72,10 @@
 
 
       <div>
+        <div class="row">
             <h2>Skills & Tools</h2>
-            <div class="row">
-              <div class="col-md-6">
+            
+              <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
                 <h3>Relevant Skills</h3>
                 <ul>
                 <li>Wireframing / Prototyping</li>
@@ -83,7 +93,7 @@
               </ul>
               </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
               <h3>Tools I Use</h3>
                 <ul>
               <li>Adobe XD</li>
@@ -139,6 +149,10 @@
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
     crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>

@@ -7,6 +7,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
    <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+   <link rel="manifest" href="img/favicon/site.webmanifest">
+   <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
    <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <meta name="author" content="Matthew Brooks">
@@ -18,7 +28,7 @@
   <header>
     <div class="container">
       <div class="navtoggle" id="myNavtoggle">
-      <a href="file:///Users/matthewbrooks/Desktop/Portfolio%20Site%20(MatthewBrooks)/index.html"><img class="logo" src="https://i.imgur.com/wNb4VII.png" alt="Matthew Brooks Logo"></a>
+      <a href="index.html"><img class="logo" src="https://i.imgur.com/wNb4VII.png" alt="Matthew Brooks Logo"></a>
       <nav>
         <ul class="navigation">
         <li><a href="index.html">Work</a></li>
@@ -37,73 +47,129 @@
       </p>
       <picture>
         <source srcset="img/soundshock/soundshock-600w.jpg" media="(max-width:767px)">
-        <img src="img/soundshock/soundshock-1200w.jpg" alt="Image of Soundschock Mockup from work samples">
+        <img src="img/soundshock/soundshock-1200w.jpg" alt="Image of Soundschock Mockup from work samples" data-aos="fade-up" data-aos-duration="2000">
       </picture>
-      <p>Since this was largely a learning process in how to create icons, design layout, and come up with an original UI design for the first time, this project took a bit more time than subsequent ones. Overall, the project taught me a lot about achieving a desirable aesthetic in a new space. I created something visually interesting and functional, while getting to infuse my own zeal for retro music and making what I would want to see in a music player app.
-</p>
-      <h3>Prototype</h3>
-      <p>Here is a video walkthrough along with a link to the prototype for Soundshock!</p>
-             <a href="https://xd.adobe.com/view/a9161a07-8382-4982-b744-cd5ae926a977-fc45/" class="button">Prototype Link</a>
-             <br>
-             <br>
-<iframe src="https://player.vimeo.com/video/437739443" width="640" height="1383" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-             <br>
+      <p data-aos="fade-up" data-aos-duration="2000">Since this was largely a learning process in how to create icons, design layout, and come up with an original UI design for the first time, this project took a bit more time than subsequent ones. Overall, the project taught me a lot about achieving a desirable aesthetic in a new space. I created something visually interesting and functional, while getting to infuse my own zeal for retro music and making what I would want to see in a music player app.
+      </p>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs col-md-6 col-lg-6 col-xl-6" data-aos="fade-up" data-aos-duration="2000">
+           <h3>Prototype</h3>
+           <p>Here is a video walkthrough along with a link to the prototype for Soundshock!</p>
+           <a href="https://xd.adobe.com/view/a9161a07-8382-4982-b744-cd5ae926a977-fc45/" class="button">Prototype Link</a>
+          </div>
+          <div class="col-xs col-md-6 col-lg-6 col-xl-6" data-aos="fade-up" data-aos-duration="2000">
+            <div class="embed-responsive embed-responsive-16by9" >
+            <iframe class="embed-responsive-item shock-vid"src="https://player.vimeo.com/video/437739443" width="345" height="750" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+    
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-xs col-md-6 col-lg-6 col-xl-6" data-aos="fade-up" data-aos-duration="2000">
 <h3>The Process</h3>
 <p>In terms of my creative process, I started out in a sort of research phase. I looked at similar music player apps such as Spotify, SoundCloud, and Pandora to see how they generally laid out content and decided what I liked and didn’t like about color schemes and functionality. I loved the darker theme of Spotify and the way it used draggable rows to allow users to browse through music and artists. It is very visually appealing and easier to navigate than SoundCloud was, for example.
 </p>
 <p>Pandora was my least favorite of the three. Its radio setup was its central feature and I just felt my app wasn’t based around music discovery as much as Pandora. I thought that a radio feature could easily be a side feature on any music player app, like it is with Spotify, and making it central wasn’t serving the interest of users who just want to play songs they like in the car, at home, etc.</p>
 <p>
 SoundCloud has a more socially driven set up and it allowed users to upload recordings of their own which I loved. However, their color scheme and layout just didn’t strike me as being very intriguing. I felt the very straightforward lists of songs and content with smaller images to display album artwork was boring and not as engaging as other apps. I also wasn’t at all in love with the media player screen. I wanted to make something that was a bit more neutral than the bright orange and white display of Soundcloud since my app is meant to be listened to, not necessarily looked at. I, of course, still wanted it to look cool though!</p>
-<br>
+</div>
+<div class="col-xs col-md-6 col-lg-6 col-xl-6" data-aos="fade-up" data-aos-duration="2000">
 <picture>
       <source srcset="img/soundshock/wireframe-600w.jpg" media="(max-width:767px)">
-      <img src="img/soundshock/wireframe-1200w.jpg" alt="Hand Drawn Wireframe">
+      <img class="" src="img/soundshock/wireframe-1200w.jpg" alt="Hand Drawn Wireframe">
+    
 </picture>
-      <br>
+</div>
+</div>
+      
+    <div class="row">
+      <div class="col-xs col-md-6 col-lg-6 col-xl-6" data-aos="fade-up" data-aos-duration="2000">
       <picture>
       <source srcset="img/soundshock/user-story-1-600w.jpg" media="(max-width:767px)">
-      <img src="img/soundshock/user-story-1-1200w.jpg" alt="User Story 1">
-</picture>
-      <br>
+      <img class="img-fluid pull-center" src="img/soundshock/user-story-1-1200w.jpg" alt="User Story 1">
+      </picture>
+      </div>
+      <div class="col-xs col-md-6 col-lg-6 col-xl-6" data-aos="fade-up" data-aos-duration="2000">
       <picture>
       <source srcset="img/soundshock/user-story-2-600w.jpg" media="(max-width:767px)">
-      <img src="img/soundshock/user-story-2-1200w.jpg" alt="User Story 2">
-</picture>
-      <br>
+      <img class="img-fluid pull-center" src="img/soundshock/user-story-2-1200w.jpg" alt="User Story 2">
+      </picture>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-xs col-md-6 col-lg-6 col-xl-6" data-aos="fade-up" data-aos-duration="2000">
       <picture>
       <source srcset="img/soundshock/userflow-diagra-600w.jpg" media="(max-width:767px)">
-      <img src="img/soundshock/userflow-diagram-1200w.jpg" alt="Userflow Diagram">
-</picture>
-      <br>
+      <img class="img-fluid " src="img/soundshock/userflow-diagram-1200w.jpg" alt="Userflow Diagram">
+      </picture>
+    </div>
+    
+      <div class="col-xs col-md-6 col-lg-6 col-xl-6" data-aos="fade-up" data-aos-duration="2000">
       <picture>
       <source srcset="img/soundshock/mid-fidelity-screens-600w.jpg" media="(max-width:767px)">
-      <img src="img/soundshock/mid-fidelity-screens-1200w.jpg" alt="Mid Fidelity Screens">
-</picture>
-      <br>
+      <img class="img-fluid" src="img/soundshock/mid-fidelity-screens-1200w.jpg" alt="Mid Fidelity Screens">
+      </picture>
+    </div>
+    </div>
+  
+    <div class="row">
+      <div class="col" data-aos="fade-up" data-aos-duration="2000">
       <p>After analyzing the market, I took to scoping out my visual inspirations. I knew I wanted to involve an image of a record and have some retro elements to an otherwise modern looking app. I decided that my logo and title font would be a good place to add a little edge. I picked a grainy, painted-looking font that reminded me of old Black Flag alums. I then wanted to couple it with a logo image that said this is a cool app with a bit of attitude. The lightning bolt that splits a record so that it looks like lightning and a crack in the record at the same time. I thought this was a fun, appealing way to present the feel of the app that I was going for.</p>
-<picture>
-      <source srcset="img/soundshock/inspiration-600w.jpg" media="(max-width:767px)">
-      <img src="img/soundshock/inspiration-1200w.jpg" alt="Inspiration Board">
-</picture>
-      <br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col" data-aos="fade-up" data-aos-duration="2000">
       <picture>
-      <source srcset="img/soundshock/soundshock-mocukup-with-laptop-600w.jpg" media="(max-width:767px)">
-      <img src="img/soundshock/soundshock-mocukup-with-laptop-1200w.jpg" alt="Laptop Mockup">
+      <source srcset="img/soundshock/inspiration-600w.jpg" media="(max-width:767px)">
+      <img class="img-fluid" src="img/soundshock/inspiration-1200w.jpg" alt="Inspiration Board">
 </picture>
-      <br>
-      <p>My primary colors: red, yellow, and black were chosen after looking at vintage posters of punk rock bands. The posters had a really cool aesthetic with a lot of attitude and I felt that mimicking them would give Soundshock a lot of personality. I chose to emulate the organization of Spotify in the way I presented content. I used album art in rounded-edge squares listed in draggable rows based on categories that I felt best represented what a typical user might be looking for on the fly. I envisioned a user getting into their car in a hurry and wanting to get to the music they wanted to hear as quickly as possible before hitting the road. For example, I placed the “Your Likes” category at the very top of the Library screen. I felt this would be the most likely go to category for users in a hurry. “Get me to my favorite music ASAP,” was the attitude I imagined. Also, for the sake of usability, I felt a navigation bar would be ideal. The user would be able to quickly navigate to either the library of music or other key features of the app while on the go without much thought. The icons I created are clear and communicate a strong message about what they will lead a user too. A magnifying glass for the search screen, a profile icon with a signature lighting bold above the icon’s head, a row of books for the library, and an old cassette tape for the recording screen. The red and black really presents a powerful and cool atmosphere and the layout is aimed at pure functionality.</p>
+</div>
+</div>
+<div class="row">
+  <div class="col" data-aos="fade-up" data-aos-duration="2000">
 <picture>
-      <source srcset="img/soundshock/mockup-soundshock-screens-600w.jpg" media="(max-width:767px)">
-      <img src="img/soundshock/mockup-soundshock-screens-1200w.jpg" alt="Screens Mockup">
+  <source srcset="img/soundshock/mockup-soundshock-screens-600w.jpg" media="(max-width:767px)">
+  <img class="shock-pic img-fluid pull-center" src="img/soundshock/mockup-soundshock-screens-1200w.jpg" alt="Screens Mockup">
 </picture>
-      <br>
+</div>
+</div>
+
+<div class="row">
+  <div class="col" data-aos="fade-up" data-aos-duration="2000">
+      <p>My primary colors: red, yellow, and black were chosen after looking at vintage posters of punk rock bands. The posters had a really cool aesthetic with a lot of attitude and I felt that mimicking them would give Soundshock a lot of personality. I chose to emulate the organization of Spotify in the way I presented content. I used album art in rounded-edge squares listed in draggable rows based on categories that I felt best represented what a typical user might be looking for on the fly. I envisioned a user getting into their car in a hurry and wanting to get to the music they wanted to hear as quickly as possible before hitting the road. For example, I placed the “Your Likes” category at the very top of the Library screen. I felt this would be the most likely go to category for users in a hurry. “Get me to my favorite music ASAP,” was the attitude I imagined. Also, for the sake of usability, I felt a navigation bar would be ideal. The user would be able to quickly navigate to either the library of music or other key features of the app while on the go without much thought. The icons I created are clear and communicate a strong message about what they will lead a user too. A magnifying glass for the search screen, a profile icon with a signature lighting bold above the icon’s head, a row of books for the library, and an old cassette tape for the recording screen. The red and black really presents a powerful and cool atmosphere and the layout is aimed at pure functionality.</p>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col" data-aos="fade-up" data-aos-duration="2000">
+      <picture>
+        <source srcset="img/soundshock/soundshock-mocukup-with-laptop-600w.jpg" media="(max-width:767px)">
+        <img class="img-fluid" src="img/soundshock/soundshock-mocukup-with-laptop-1200w.jpg" alt="Laptop Mockup">
+  </picture>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col" data-aos="fade-up" data-aos-duration="2000">
       <p>Overall, Soundshock is designed to bring the user into a world of kick’n tunes that they love and that they even create!
 </p>
+</div>
+</div>
       </div>
   </main>
   <footer>
     <div class="row">
-      <div class="col">
+      <div class="col" data-aos="fade-up" data-aos-duration="2000">
         <div id="contact" class="container">
           <h2>Get in Touch</h2>
           <p>Do you like my work and want to discuss opportunities? Please get in touch. </p>
@@ -113,6 +179,7 @@ SoundCloud has a more socially driven set up and it allowed users to upload reco
         <a href="mailto:m.brooks42@yahoo.com" class="button contact">Send me an email</a>
       </div>
     </div>
+  </div>
     <br>
 
     <!--I imported font-awesome for the icons. It's my goto for icons. I changed the layout a bit, but you can just add br tags between them if you want them vertical, and styling is in the style.css if you wanted to change anything-->
@@ -140,5 +207,9 @@ SoundCloud has a more socially driven set up and it allowed users to upload reco
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
     crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
